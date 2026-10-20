@@ -8,11 +8,10 @@
 // TODO: Save all responses in meaningfully named variables using let or const.
 // Hint: let animal = prompt("Enter an animal:");
 // Hint: let age = Number(prompt("Enter an age:"));
-
-// PART 2 — DATA TYPES
-// TODO: Declare a real Boolean: const isRidiculous = true; (true is NOT "true").
-// TODO: Log typeof for a string, a number and a Boolean with labels.
-// Hint: console.log("Animal type:", typeof animal);
+let name = prompt("Enter Name:")
+let name2 = prompt("Enter Name: ")
+let location = prompt("Enter Location: ")
+let transport = prompt("Enter Mode of Transportation: ")
 
 // PART 3 — VARIABLE CHANGES AND CONCATENATION
 // TODO: Reassign one let variable after its first value (use the updated value).
