@@ -8,15 +8,22 @@
 // TODO: Save all responses in meaningfully named variables using let or const.
 // Hint: let animal = prompt("Enter an animal:");
 // Hint: let age = Number(prompt("Enter an age:"));
-let name = prompt("Enter Name:")
-let name2 = prompt("Enter Name: ")
-let location = prompt("Enter Location: ")
-let transport = prompt("Enter Mode of Transportation: ")
+let person1 = prompt("Enter Name:");
+let person2 = prompt("Enter Name: ");
+let location = prompt("Enter Location: ");
+let transport = prompt("Enter Mode of Transportation: ");
+let weapon = prompt("Enter Weapon of Choice: ");
+let weapon2 = prompt("Enter secondry Weapon of Choice: ");
+let bag = prompt("Enter what you use t carry equipment(Ex. Bag):");
+let shelter = prompt("Enter a shelter you found");
+let stay = Number(prompt("Enter amount of number days your going to stay at shelter"));
+let zombNum = Number(prompt("Enter number 100-1000: "))
 
 // PART 3 — VARIABLE CHANGES AND CONCATENATION
 // TODO: Reassign one let variable after its first value (use the updated value).
 // TODO: Combine a quoted string and a variable with +; show the result.
 // Hint: let message = "Meet " + animal;
+let place = "abandoned" + shelter;
 
 // PART 4 — MATH OPERATORS
 // TODO: Use ALL six operators with numeric values: +  -  *  /  %  **
